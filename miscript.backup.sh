@@ -2,7 +2,6 @@
 #The scope of this script is to backup and get a tech report from a SNS Firewall
 #it is possible also to shutdown it
 #in a next release, I will try to adapt it to be able to send a bunch of firewall in a csv file
-#.
 DATE=$(echo "[`date +%F" "%T`]")
 function helping () {
 echo " Usage: miscript.sh [options]
